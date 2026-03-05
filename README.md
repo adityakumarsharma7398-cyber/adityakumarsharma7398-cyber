@@ -39,15 +39,7 @@ Hi, I'm Aditya Kumar Sharma, a first-year B.Tech student and tech enthusiast who
 ## 📊 GitHub Stats
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=adityakumarsharma7398-cyber&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=86400"/>
-</p>
-
-<p align="center">
 <img src="https://streak-stats.demolab.com?user=adityakumarsharma7398-cyber&theme=tokyonight&hide_border=true"/>
-</p>
-
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adityakumarsharma7398-cyber&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400"/>
 </p>
 
 ---
