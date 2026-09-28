@@ -18,7 +18,7 @@
 <br/>
 
 <a href="https://github.com/adityakumarsharma7398-cyber">
-<img src="https://img.shields.io/badge/GitHub-0B0F19?style=for-the-badge&~logo=github&logoColor=white" alt="GitHub"/>
+<img src="https://img.shields.io/badge/GitHub-0B0F19?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
 </a>
 <a href="https://www.linkedin.com/in/aditya-kumar-sharma-85a0782bb">
 <img src="https://img.shields.io/badge/LinkedIn-0B0F19?style=for-the-badge&logo=linkedin&logoColor=8BE9FD" alt="LinkedIn"/>
@@ -201,7 +201,7 @@ I also experiment with ideas around **AI-powered verification, intelligent autom
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=adityakumarsharma7398-cyber&theme=github_dark" width="31%" alt="Repositories by language"/>
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=adityakumarsharma7398-cyber&theme=github_dark" width="31%" alt="Most commit language"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=adityakumarsharma7398-cyber&theme=github_dark&utcOffset=5.5" width="31%" alt="Productive time"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=adityakumarsharma7398-cyber&theme=github_dark" width="31%" alt="GitHub statistics"/>
 
 </div>
 

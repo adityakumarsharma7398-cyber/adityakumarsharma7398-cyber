@@ -1,15 +1,25 @@
-# Profile README upgrade
+# Profile README fixes
 
-Files:
-- `README.md` — new Aurora / 3D profile design
-- `.github/workflows/profile-3d.yml` — generates the 3D contribution image
-- `.github/workflows/generate-snake.yml` — generates the contribution snake
+This revision fixes the two broken areas visible on the GitHub profile:
 
-After adding these files to the profile repository:
-1. Open **Actions**.
-2. Run **GitHub-Profile-3D-Contrib** manually once.
-3. Run **Generate Contribution Snake** manually once.
-4. Wait for both workflows to finish.
-5. Open the profile README.
+1. **3D contribution image**
+   - Uses `yoshi389111/github-profile-3d-contrib@0.7.1`.
+   - Commits the generated `profile-3d-contrib/` files back to the repository.
+   - README points to `profile-3d-contrib/profile-night-rainbow.svg`.
 
-The README intentionally avoids the broken public GitHub stats/activity endpoints that appeared in the previous version. It keeps the working streak/profile-summary cards and adds a generated 3D contribution visualization.
+2. **Broken Productive Time card**
+   - Removed the hosted `productive-time` card.
+   - Replaced it with the supported GitHub Summary Cards `stats` card.
+
+Your existing contribution snake workflow is intentionally left unchanged.
+
+After replacing the files:
+1. `git status`
+2. `git add README.md .github/workflows/profile-3d.yml`
+3. `git commit -m "fix profile analytics and 3D contribution"`
+4. `git push origin main`
+5. Open **Actions → GitHub-Profile-3D-Contrib → Run workflow**.
+6. Wait for it to finish successfully.
+7. Refresh your GitHub profile.
+
+The 3D image will not appear until the 3D workflow has successfully generated and committed its SVG.
