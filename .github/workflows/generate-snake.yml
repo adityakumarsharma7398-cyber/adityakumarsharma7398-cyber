@@ -1,34 +1,36 @@
-name: Generate Contribution Snake
+# 🐍 GitHub Contribution Snake Animation
+# This workflow generates the snake animation SVG for the profile README
+
+name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 */24 * * *"
-  workflow_dispatch:
+    - cron: "0 */6 * * *"  # Runs every 6 hours
+  workflow_dispatch:         # Allows manual trigger
   push:
     branches:
       - main
 
-permissions:
-  contents: write
-
 jobs:
   generate:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
 
     steps:
-      - name: Generate contribution snake
+      - name: Generate Snake Game
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: code-with-abhi-i5
           outputs: |
-            dist/github-snake.svg?color_snake=%237C3AED&color_dots=%2316112B,%232D1B69,%235B21B6,%237C3AED,%2306B6D4
-            dist/github-snake-dark.svg?color_snake=%23FF79C6&color_dots=%2316112B,%232D1B69,%235B21B6,%237C3AED,%2306B6D4
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
 
-      - name: Publish generated SVGs
+      - name: Push Snake SVG to Output Branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
-          build_dir: dist
           target_branch: output
+          build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
