@@ -171,18 +171,6 @@ I also experiment with ideas around **AI-powered verification, intelligent autom
 
 ---
 
-## ◈ `3D contribution universe`
-
-<div align="center">
-
-<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="96%" alt="3D GitHub contribution graph"/>
-
-</div>
-
-> A contribution calendar rendered as a 3D visual — generated automatically with GitHub Actions.
-
----
-
 ## ◈ `github telemetry`
 
 <div align="center">
